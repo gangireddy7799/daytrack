@@ -1,0 +1,39 @@
+/* Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font Settings */
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --code-font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  --font-smoothing: antialiased;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: var(--font-smoothing);
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6; /* Improves readability */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light background color for better contrast */
+  color: #333; /* Darker text color for better readability */
+}
+
+/* Code Styles */
+code {
+  font-family: var(--code-font-family);
+  font-size: 0.875em; /* Slightly smaller font size for code */
+  background-color: #f0f0f0; /* Light background for code blocks */
+  border-radius: 4px; /* Rounded corners for code blocks */
+  padding: 0.2em 0.4em; /* Slight padding around code text */
+  color: #d14; /* Slightly different text color for better emphasis */
+  display: inline; /* Ensure code displays inline */
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TrackMyDay/static/css/main.418ec2c1.css",
+    "main.js": "/TrackMyDay/static/js/main.a177dd52.js",
+    "index.html": "/TrackMyDay/index.html",
+    "main.418ec2c1.css.map": "/TrackMyDay/static/css/main.418ec2c1.css.map",
+    "main.a177dd52.js.map": "/TrackMyDay/static/js/main.a177dd52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.418ec2c1.css",
+    "static/js/main.a177dd52.js"
+  ]
+}

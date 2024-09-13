@@ -1,0 +1,64 @@
+{
+  "name": "track-my-day",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This app helps you track your daily activities and provides insights into how you spend your time. It aims to help identify areas where you are wasting time and make changes to be more productive.",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start:server": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^4.1.1",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-google-button": "^0.7.2",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "workbox-background-sync": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@babel/plugin-transform-optional-chaining": "^7.21.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.3.3",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
